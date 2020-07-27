@@ -1,0 +1,107 @@
+body{
+    height: 100%;
+    background: linear-gradient(180deg, #0837B0 0%, #021E66 100%);
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+html{
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-div{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; */
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.buttons-calc{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 34px;  
+    margin-bottom: 0; 
+}
+
+.buttons-loader{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    display: inline;
+    width: 65px;
+    height: 65px;
+    border-radius: 4px;
+    border: none;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+    align-content: center;
+}
+
+button img{
+    padding-top: 6px;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 176px;
+    /* identical to box height */
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+
+.inc-button{
+    
+    background: #089C20;
+    border-radius: 4px;
+}
+.dec-button{
+    background: #E7AA10;
+    border-radius: 4px;
+}
+.zero-button{
+    background: #CF1C1C;
+    border-radius: 4px;
+}
+
+button:hover{
+    border: 1px solid gray;
+    transition: 0.1s;
+}
+button:focus{
+    outline: none;
+}
